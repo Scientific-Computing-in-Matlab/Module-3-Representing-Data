@@ -1,7 +1,5 @@
 # Oultine a Pipeline
-In this assignment, you will develop a birds-eye view of your analysis project. Y
-ou can do this for a research project that you are currently working on, or one that you have completed already. 
-Ideally, this lays the basis for your final project, but this is not required.
+In this assignment, you will develop a birds-eye view of your analysis project. You  do this for a research project that you are currently working on, or one that you have completed already. Ideally, this lays the basis for your final project in this course.
 
 The current goal is to layout the different steps in an analysis pipeline for your project. This should be schematic.
 
@@ -24,7 +22,7 @@ You start from the _read.m_ ,_preprocess.m_, _analyze.m_, and _visualize.m_ m-fi
 files to make their filenames reflect better what goes on inside. 
 
 
-*** Note that none of this involves writing working code. ***
+None of this involves writing working code!
 
 Instead, in each of these m-files you only write the documentation of the code that you plan to write.
 
@@ -33,18 +31,18 @@ Then describe what the input and out variables are for your _read_ function.
 Maybe a filename as input, and a big ND array of EEG recordings, or reaction times as output? 
 Describe what kind (type) of variables you will use (a struct, a table, an ND array) and explain why. 
 
-
 In the _preprocess.m_ file you follow the same strategy. Describe what goes into this function and what comes out. 
-Which parameters need to be set? When is a value considered an outlier and removed from the data? 
+Which parameters need to be set? What will the inputParser do? What kind of preprocessing do you need to do? Outlier detection? Detecting missing values? 
 
-In the _analyze.m_ file you describe what kind of analysis you would like to do. Structure the file with cells to make the logical sequence of steps clear. 
-if your analysis will require additional functions, add those as m-files to, and write their documentation. 
-If you use an external toolbox for most of the preprocessing or even core analysis, don't bother describing exactly what it does; or motivating its input/output. Just treat the external toolbox as a built-in Matlab function that is beyond your control. 
-
+In the _analyze.m_ file you describe what kind of analysis you plan to do. Structure the file with cells to make the logical sequence of steps clear. 
+if your analysis will require additional functions, add those as m-files to, and write (only) their documentation. 
+If you use an external toolbox for most of the preprocessing or even core analysis, don't bother adding it, describing exactly what it does; or motivating its input/output. Just treat the external toolbox as a built-in Matlab function that is beyond your control. 
 
 The _visualize.m_ file documents the ultimate results figure that you will generate. This will be a function, so what kind of input will this function receive? 
 
 It is perfectly fine if some stages are still unclear - just recognizing that there are stages is important! The goal is for you to take a step back and think about the code without writing any. 
+
+
 Once you have completed your pipeline outline, add all relevant m-files to this module's repository, commit, and push to GitHub.
 
 
