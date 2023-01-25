@@ -10,4 +10,4 @@ Using your data table, perform the following calculations:
 3. Use a t-test to determine whether the heights of males and females differ significantly (p < 0.05)
 
 
-For this assigmen you start from [the starter script](../code/arrhytmia.m) in the repository, add your code and then commit and push your solution to create a pull-request that the instructors will review.
+For this assigmen you start from the _arrhytmia.m_ starter script in the repository, add your code and then commit and push your solution to create a pull-request that the instructors will review.
