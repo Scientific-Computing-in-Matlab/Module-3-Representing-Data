@@ -1,6 +1,6 @@
 # Arrhytmia
 
-Load the 'arrhythmia' dataset included in MATLAB's Statistics and Machine Learning Toolbox. 
+Load the _arrhythmia_ dataset included in MATLAB's Statistics and Machine Learning Toolbox. 
 Reorganize the data into a table - you may have to do some work with the variable name strings to get them into a format appropriate for table variable names. 
 
 Using your data table, perform the following calculations:
