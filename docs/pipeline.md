@@ -14,12 +14,15 @@ At the coarsest level, your pipeline includes steps for
 but your assignment is to fill in more detail.
 
 You will do this in two complementary formats. 
-The first is a PowerPoint (or Visio or Word) to generate a block diagram or flow-chart, explaining the overall pipeline of your project.
+
+* The first is a PowerPoint (or Visio or Word) to generate a block diagram or flow-chart, explaining the overall pipeline of your project.
 Add this document to the _docs/_ folder of this module. 
 
 
-The second format consists of M-files that you create. 
-You start from the _read.m_ ,_preprocess.m_, _analyze.m_, and _visualize.m_ m-files that are in the _code/_ folder. But you can add files, for instance to define additional functions. 
+* The second format consists of M-files that you create. 
+You start from the _read.m_ ,_preprocess.m_, _analyze.m_, and _visualize.m_ m-files that are in the _code/_ folder. But you can add files, for instance to define additional functions, or you can rename these 
+files to make their filenames reflect better what goes on inside. 
+
 
 *** Note that none of this involves writing working code. ***
 
@@ -42,6 +45,6 @@ If you use an external toolbox for most of the preprocessing or even core analys
 The _visualize.m_ file documents the ultimate results figure that you will generate. This will be a function, so what kind of input will this function receive? 
 
 It is perfectly fine if some stages are still unclear - just recognizing that there are stages is important! The goal is for you to take a step back and think about the code without writing any. 
-
+Once you have completed your pipeline outline, add all relevant m-files to this module's repository, commit, and push to GitHub.
 
 
