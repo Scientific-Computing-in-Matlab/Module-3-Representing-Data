@@ -11,11 +11,12 @@ At the end of this module you will be able to:
 ## Materials
 
 1. If you're not familiar with the differences between arrays, strings, structs, and cells, then start by watching the [Data Types](https://www.coursera.org/learn/matlab/home/week/8) video on Coursera 
-2. Read the section on cell arrays, sparse arrays, and structures in the [Elementary Matlab handout](.docs/ElementaryMatlab.pdf).
-3. Work through the `representingData.mlx` LiveScript in the docs folder of this repository.
-4. Watch this [video on tables](https://www.mathworks.com/videos/introducing-tables-and-categorical-arrays-79924.html?s_tid=srchtitle_tables%20_2) and work through a LiveScript explaiing the use of tables (type `openExample 'CreateAndWorkWithTableExample.mlx'` on the Matlab command prompt).
+1. Read the section on cell arrays, sparse arrays, and structures in the [Elementary Matlab handout](.docs/ElementaryMatlab.pdf).
+1. Work through the `representingData.mlx` LiveScript in the docs folder of this repository.
+1. Watch this [video on tables](https://www.mathworks.com/videos/introducing-tables-and-categorical-arrays-79924.html?s_tid=srchtitle_tables%20_2) and work through a LiveScript explaiing the use of tables (type `openExample 'CreateAndWorkWithTableExample.mlx'` on the Matlab command prompt).
  
  ## Assignments
- * Complete the [Outline a Pipeline assignment](./docs/pipeline.md)
- * Test your table skills with the [Arrhythmia Table assignment](./docs/arrhytmia.md).
+ 
+ - Test your table skills with the [Arrhythmia Table assignment](./docs/arrhytmia.md).
+ - Complete the first assignment (Outline a Pipeline) in the Project repository.
  
